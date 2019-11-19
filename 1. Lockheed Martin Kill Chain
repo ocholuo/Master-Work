@@ -1,27 +1,0 @@
-1.	Reconnaissance: 
-	⁃	Research, identification, and selection of targets, 
-	⁃	according to their different goals of attack (such as gain financial benefit, gain unauthorized access to sensitive information, cause brand damage to system).
-	⁃	often represented as: crawling Internet web sites such as conference proceedings and mailing lists for email addresses, social relationships, or information on specific technologies.  
-	
-2.	Weaponization: 
-	⁃	Coupling a remote-access Trojan (RAT) with an exploit into a deliverable payload, typically by means of an automated tool (weaponizer). 
-	⁃	bypassing perimeter defenses and gaining access to the internal network through a compromised system or user account.
-	⁃	Increasingly, client application data files such as Adobe Portable Document Format (PDF) or Microsoft Office documents serve as the weaponized deliverable.  
-	
-3.	Delivery: 
-	⁃	Transmission of the weapon to the targeted environment. 
-	⁃	The three most prevalent delivery vectors for weaponized payloads by APT actors: e-mail attachments, web sites, and USB removable media.  
-	
-4.	Exploitation: After the weapon is delivered to victim host, exploitation triggers intruders’ code. Most often, exploitation targets an application or operating system vulnerability, but it could also more simply exploit the users themselves or leverage an operating system feature that auto-executes code.  
-	
-5.	Installation: Installation of a remote access Trojan or back door on the victim system allows the adversary to maintain persistence inside the environment.  
-
-6.	Command and Control (C2): 
-	⁃	Typically, compromised hosts must beacon outbound to an Internet controller server to establish a C2 channel. APT malware especially requires manual interaction rather than activity conducted automatically. 
-	⁃	Once the C2 channel establishes, intruders have “hands on the keyboard” access inside the target environment.  
-
-7.	Actions on Objectives: achieve their original objectives. 
-	⁃	Exfiltration, corruption, and disruption
-	⁃	data exfiltration: collecting, encrypting, and extracting information from the victim environment; 
-	⁃	violations of data integrity or availability
-	⁃	Alternatively, the intruders may only desire access to the initial victim box for use as a hop point to compromise additional systems and move laterally inside the network.  
